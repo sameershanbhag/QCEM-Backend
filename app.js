@@ -16,7 +16,9 @@ var session = require('express-session');
 let sessionStorage = require('./utility/sessionStorage');
 let mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/SSDI', {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.connect('mongodb://localhost/SSDI', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://sameer:sameer123456@ssdi-mns1h.mongodb.net/SSDI?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+
 let db = mongoose.connection;
 
 // Check for Database Error
