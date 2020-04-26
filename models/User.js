@@ -1,18 +1,3 @@
-/*
-* Author : Sameer Shanbhag (801099638)
-*/
-
-/*
-* I am not including the optional fields as not required in my application at current time
-* Optional fields
-* Address 1 Field
-* Address 2 Field
-* City
-* State
-* Zip Code
-* Country
-* */
-
 class User {
   /*
   * We can Either use constructor to set the values or Setters as Defined Below

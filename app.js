@@ -1,19 +1,13 @@
 /*
-Author : Sameer Shanbhag (801099638)
-*/
-
-/*
-* Goal :
 * user responding (RSVP) to a connection to save to their account (profile)
 * user removing (delete) connections they've saved in their account (profile)
 * user changing (update) their response. A user should be able to change any response they previously provided.
 * */
 
 var express = require('express');
-var expressLayouts = require('express-ejs-layouts')
+var expressLayouts = require('express-ejs-layouts');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
-let sessionStorage = require('./utility/sessionStorage');
 let mongoose = require('mongoose');
 
 // mongoose.connect('mongodb://localhost/SSDI', {useNewUrlParser: true, useUnifiedTopology: true});

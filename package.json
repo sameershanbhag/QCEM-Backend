@@ -1,7 +1,7 @@
 {
-  "name": "Milestone 4",
+  "name": "QCEM-BackEnd",
   "version": "1.0.0",
-  "description": "This is exercize 2 for 801099638",
+  "description": "SSDI Project for Group 6",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

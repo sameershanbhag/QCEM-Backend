@@ -1,7 +1,3 @@
-/*
-Author : Sameer Shanbhag (801099638)
-*/
-
 var express = require('express');
 var router = express.Router();
 let {getConnection, getConnections, addConnection} = require("../models/ConnectionDB");

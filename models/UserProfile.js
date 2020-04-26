@@ -1,8 +1,4 @@
-/*
-* Author : Sameer Jeevan Shanbhag
-*
-* Requirement : UserProfile - represents the user profile. Contains the list of user connections as well as functions to support getting, adding and removing connections from the user profile. In other words, it's a class/module with methods/functions to store and manage the user connections in the user profile.
-*
+/**
 * properties:
 * User ID or User to associate this UserProfile object to the user
 * a list containing UserConnection objects for this user

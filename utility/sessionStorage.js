@@ -1,5 +1,3 @@
-let userModel = require('../models/user');
-
 // Mongoose Imports
 let userDB = require('../models/UserDB');
 let userProfileDB = require('../models/UserProfileDB');

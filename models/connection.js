@@ -1,7 +1,3 @@
-/*
-Author : Sameer Shanbhag (801099638)
-*/
-
 class Connection {
 
   /*
